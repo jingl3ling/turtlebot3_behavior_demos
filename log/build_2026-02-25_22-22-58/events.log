@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000161] (tb_worlds) JobQueued: {'identifier': 'tb_worlds', 'dependencies': OrderedDict()}
-[0.000207] (tb_autonomy) JobQueued: {'identifier': 'tb_autonomy', 'dependencies': OrderedDict({'tb_worlds': '/home/dmin/turtlebot_ws/install/tb_worlds'})}
-[0.000649] (tb_worlds) JobStarted: {'identifier': 'tb_worlds'}
-[0.024337] (tb_worlds) JobProgress: {'identifier': 'tb_worlds', 'progress': 'cmake'}
-[0.026102] (tb_worlds) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n         ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 173, in _reconfigure\n    raise RuntimeError("Could not find \'cmake\' executable")\nRuntimeError: Could not find \'cmake\' executable\n'}
-[0.027184] (tb_worlds) JobEnded: {'identifier': 'tb_worlds', 'rc': 1}
-[0.036574] (tb_autonomy) JobSkipped: {'identifier': 'tb_autonomy'}
-[0.036622] (-) EventReactorShutdown: {}

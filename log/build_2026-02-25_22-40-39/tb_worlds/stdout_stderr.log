@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav2_minimal_tb3_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb3_sim/cmake)
+-- Found nav2_minimal_tb4_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb4_sim/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dmin/turtlebot_ws/build/tb_worlds
+-- Install configuration: ""
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_demo_world.launch.py
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_world.launch.py
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/turtlebot_spawner.launch.py
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/block_spawner.launch.py
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.pgm
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.yaml
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_locations.yaml
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.config
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.sdf
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.config
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.sdf
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.config
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.sdf
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.config
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.sdf
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/worlds
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/worlds/sim_house.sdf.xacro
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/urdf
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/urdf/gz_waffle.sdf.xacro
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot4_bridge.yaml
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot3_bridge.yaml
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/nav2_params.yaml
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/package_run_dependencies/tb_worlds
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/parent_prefix_path/tb_worlds
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.sh
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.dsv
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.sh
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.dsv
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.bash
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.sh
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.zsh
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.dsv
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.dsv
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/packages/tb_worlds
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig.cmake
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig-version.cmake
+-- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.xml

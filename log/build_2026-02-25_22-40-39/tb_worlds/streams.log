@@ -1,0 +1,77 @@
+[0.010s] Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds -DCMAKE_INSTALL_PREFIX=/home/dmin/turtlebot_ws/install/tb_worlds
+[0.102s] -- The C compiler identification is GNU 13.3.0
+[0.333s] -- The CXX compiler identification is GNU 13.3.0
+[0.538s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.711s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.712s] -- Detecting C compile features
+[0.712s] -- Detecting C compile features - done
+[0.757s] -- Detecting CXX compiler ABI info
+[0.945s] -- Detecting CXX compiler ABI info - done
+[0.952s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.952s] -- Detecting CXX compile features
+[0.952s] -- Detecting CXX compile features - done
+[0.957s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.095s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.209s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.213s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.331s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.349s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.435s] -- Found nav2_minimal_tb3_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb3_sim/cmake)
+[1.439s] -- Found nav2_minimal_tb4_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb4_sim/cmake)
+[1.507s] -- Configuring done (1.5s)
+[1.514s] -- Generating done (0.0s)
+[1.516s] -- Build files have been written to: /home/dmin/turtlebot_ws/build/tb_worlds
+[1.523s] Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds -DCMAKE_INSTALL_PREFIX=/home/dmin/turtlebot_ws/install/tb_worlds
+[1.525s] Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dmin/turtlebot_ws/build/tb_worlds -- -j12 -l12
+[1.571s] Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dmin/turtlebot_ws/build/tb_worlds -- -j12 -l12
+[1.582s] Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dmin/turtlebot_ws/build/tb_worlds
+[1.591s] -- Install configuration: ""
+[1.591s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch
+[1.593s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_demo_world.launch.py
+[1.593s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_world.launch.py
+[1.593s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/turtlebot_spawner.launch.py
+[1.594s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/block_spawner.launch.py
+[1.594s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps
+[1.595s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.pgm
+[1.595s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.yaml
+[1.596s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_locations.yaml
+[1.596s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models
+[1.597s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block
+[1.597s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.config
+[1.597s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.sdf
+[1.598s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block
+[1.598s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.config
+[1.599s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.sdf
+[1.599s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house
+[1.600s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.config
+[1.600s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.sdf
+[1.600s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block
+[1.601s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.config
+[1.601s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.sdf
+[1.602s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/worlds
+[1.602s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/worlds/sim_house.sdf.xacro
+[1.603s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/urdf
+[1.604s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/urdf/gz_waffle.sdf.xacro
+[1.604s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs
+[1.605s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot4_bridge.yaml
+[1.605s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot3_bridge.yaml
+[1.605s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/nav2_params.yaml
+[1.607s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/package_run_dependencies/tb_worlds
+[1.607s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/parent_prefix_path/tb_worlds
+[1.608s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.sh
+[1.608s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.dsv
+[1.608s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.sh
+[1.609s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.dsv
+[1.609s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.bash
+[1.609s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.sh
+[1.609s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.zsh
+[1.609s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.dsv
+[1.609s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.dsv
+[1.610s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/packages/tb_worlds
+[1.611s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig.cmake
+[1.611s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig-version.cmake
+[1.611s] -- Installing: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.xml
+[1.613s] Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dmin/turtlebot_ws/build/tb_worlds

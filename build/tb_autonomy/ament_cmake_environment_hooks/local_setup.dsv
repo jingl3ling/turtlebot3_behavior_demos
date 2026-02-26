@@ -1,0 +1,3 @@
+source;share/tb_autonomy/environment/ament_prefix_path.sh
+source;share/tb_autonomy/environment/path.sh
+source;share/tb_autonomy/environment/pythonpath.sh

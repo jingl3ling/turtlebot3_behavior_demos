@@ -1,0 +1,11 @@
+source;share/tb_autonomy/hook/cmake_prefix_path.ps1
+source;share/tb_autonomy/hook/cmake_prefix_path.dsv
+source;share/tb_autonomy/hook/cmake_prefix_path.sh
+source;share/tb_autonomy/hook/pythonpath.ps1
+source;share/tb_autonomy/hook/pythonpath.dsv
+source;share/tb_autonomy/hook/pythonpath.sh
+source;share/tb_autonomy/local_setup.bash
+source;share/tb_autonomy/local_setup.dsv
+source;share/tb_autonomy/local_setup.ps1
+source;share/tb_autonomy/local_setup.sh
+source;share/tb_autonomy/local_setup.zsh
