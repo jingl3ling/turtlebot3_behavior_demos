@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_python/tb_behaviors/tb_behaviors' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_tb_behaviors] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -43,26 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE DIRECTORY FILES
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/bt_xml"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/launch"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/environment" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/environment" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/tb_behaviors-0.0.0-py3.12.egg-info" TYPE DIRECTORY FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_python/tb_behaviors/tb_behaviors.egg-info/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/tb_behaviors" TYPE DIRECTORY FILES "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/python/tb_behaviors/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  include("/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,97 +52,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
         "/usr/bin/python3" "-m" "compileall"
         "/home/dmin/turtlebot_ws/install/tb_autonomy/lib/python3.12/site-packages/tb_behaviors"
       )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy" TYPE PROGRAM FILES
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/scripts/autonomy_node.py"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/scripts/test_move_base.py"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/scripts/test_vision.py"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy" TYPE EXECUTABLE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/autonomy_node_cpp")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp"
-         OLD_RPATH "/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tb_autonomy/autonomy_node_cpp")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/dmin/turtlebot_ws/build/tb_autonomy/CMakeFiles/autonomy_node_cpp.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tb_autonomy")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tb_autonomy")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/environment" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/environment" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_index/share/ament_index/resource_index/packages/tb_autonomy")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy/cmake" TYPE FILE FILES
-    "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_core/tb_autonomyConfig.cmake"
-    "/home/dmin/turtlebot_ws/build/tb_autonomy/ament_cmake_core/tb_autonomyConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_autonomy" TYPE FILE FILES "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_autonomy/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

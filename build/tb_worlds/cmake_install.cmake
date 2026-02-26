@@ -43,73 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE DIRECTORY FILES
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/launch"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/maps"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/models"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/worlds"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/urdf"
-    "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/configs"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tb_worlds")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tb_worlds")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds/environment" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds/environment" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_index/share/ament_index/resource_index/packages/tb_worlds")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds/cmake" TYPE FILE FILES
-    "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_core/tb_worldsConfig.cmake"
-    "/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_core/tb_worldsConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb_worlds" TYPE FILE FILES "/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/package.xml")
+  include("/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

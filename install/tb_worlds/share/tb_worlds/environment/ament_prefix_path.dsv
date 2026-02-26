@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/ament_prefix_path.dsv

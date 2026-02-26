@@ -1,5 +1,1 @@
-# Defines object locations as [x, y, theta]
-location1: [-1.0, -0.5, -2.25]
-location2: [0.5, 4.0, 0.785]
-location3: [4.0, 0.5, 1.571]
-location4: [2.75, 2.5, -1.571]
+/home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds/maps/sim_house_locations.yaml

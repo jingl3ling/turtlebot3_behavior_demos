@@ -74,7 +74,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/tb_autonomy_uninstall.dir/clean
-clean: CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/clean
+clean: CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/clean
 clean: CMakeFiles/autonomy_node_cpp.dir/clean
 .PHONY : clean
@@ -132,36 +132,36 @@ CMakeFiles/tb_autonomy_uninstall.dir/clean:
 .PHONY : CMakeFiles/tb_autonomy_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir
+# Target rules for target CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/build.make CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/build.make CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmin/turtlebot_ws/build/tb_autonomy/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_tb_behaviors"
-.PHONY : CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/all
+CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/build.make CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/build.make CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmin/turtlebot_ws/build/tb_autonomy/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_tb_behaviors"
+.PHONY : CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmin/turtlebot_ws/build/tb_autonomy/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmin/turtlebot_ws/build/tb_autonomy/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_copy_tb_behaviors: CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/rule
-.PHONY : ament_cmake_python_copy_tb_behaviors
+ament_cmake_python_symlink_tb_behaviors: CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/rule
+.PHONY : ament_cmake_python_symlink_tb_behaviors
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/build.make CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/clean
+CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/build.make CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/all: CMakeFiles/ament_cmake_python_copy_tb_behaviors.dir/all
+CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_tb_behaviors.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/build.make CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/build.make CMakeFiles/ament_cmake_python_build_tb_behaviors_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmin/turtlebot_ws/build/tb_autonomy/CMakeFiles --progress-num= "Built target ament_cmake_python_build_tb_behaviors_egg"

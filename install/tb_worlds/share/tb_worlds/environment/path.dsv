@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/path.dsv

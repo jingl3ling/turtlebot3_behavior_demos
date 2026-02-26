@@ -1,0 +1,6 @@
+Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dmin/turtlebot_ws/install/tb_worlds
+Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dmin/turtlebot_ws/install/tb_worlds
+Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dmin/turtlebot_ws/build/tb_worlds -- -j12 -l12
+Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dmin/turtlebot_ws/build/tb_worlds -- -j12 -l12
+Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dmin/turtlebot_ws/build/tb_worlds
+Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dmin/turtlebot_ws/build/tb_worlds

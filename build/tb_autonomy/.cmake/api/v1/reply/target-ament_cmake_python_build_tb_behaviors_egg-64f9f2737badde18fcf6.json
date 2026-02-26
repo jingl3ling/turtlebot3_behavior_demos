@@ -41,7 +41,7 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ament_cmake_python_copy_tb_behaviors::@6890427a1f51a3e7e1df"
+			"id" : "ament_cmake_python_symlink_tb_behaviors::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ament_cmake_python_build_tb_behaviors_egg::@6890427a1f51a3e7e1df",

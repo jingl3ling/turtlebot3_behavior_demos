@@ -1,0 +1,56 @@
+[0.018s] Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dmin/turtlebot_ws/install/tb_worlds
+[0.042s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.323s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.334s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.334s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.513s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.527s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found nav2_minimal_tb3_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb3_sim/cmake)
+[0.622s] -- Found nav2_minimal_tb4_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb4_sim/cmake)
+[0.745s] -- Configuring done (0.7s)
+[0.752s] -- Generating done (0.0s)
+[0.755s] -- Build files have been written to: /home/dmin/turtlebot_ws/build/tb_worlds
+[0.765s] Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dmin/turtlebot_ws/src/turtlebot3_behavior_demos/tb_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dmin/turtlebot_ws/install/tb_worlds
+[0.766s] Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dmin/turtlebot_ws/build/tb_worlds -- -j12 -l12
+[0.836s] Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dmin/turtlebot_ws/build/tb_worlds -- -j12 -l12
+[0.854s] Invoking command in '/home/dmin/turtlebot_ws/build/tb_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dmin/turtlebot_ws/build/tb_worlds
+[0.868s] -- Install configuration: ""
+[0.869s] -- Execute custom install script
+[0.869s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/block_spawner.launch.py
+[0.891s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_demo_world.launch.py
+[0.914s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_world.launch.py
+[0.936s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/turtlebot_spawner.launch.py
+[0.957s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_locations.yaml
+[0.978s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.pgm
+[0.996s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.yaml
+[1.013s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.config
+[1.030s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.sdf
+[1.049s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.config
+[1.065s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.sdf
+[1.083s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.config
+[1.102s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.sdf
+[1.120s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.config
+[1.137s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.sdf
+[1.155s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/worlds/sim_house.sdf.xacro
+[1.173s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/urdf/gz_waffle.sdf.xacro
+[1.191s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/nav2_params.yaml
+[1.208s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot3_bridge.yaml
+[1.225s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot4_bridge.yaml
+[1.243s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/package_run_dependencies/tb_worlds
+[1.263s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/parent_prefix_path/tb_worlds
+[1.281s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.sh
+[1.304s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.dsv
+[1.327s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.sh
+[1.347s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.dsv
+[1.366s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.bash
+[1.386s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.sh
+[1.404s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.zsh
+[1.423s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.dsv
+[1.442s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.dsv
+[1.463s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/packages/tb_worlds
+[1.478s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig.cmake
+[1.496s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig-version.cmake
+[1.515s] -- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.xml
+[1.534s] Invoked command in '/home/dmin/turtlebot_ws/build/tb_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dmin/turtlebot_ws/build/tb_worlds

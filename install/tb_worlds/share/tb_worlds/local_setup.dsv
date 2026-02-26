@@ -1,2 +1,1 @@
-source;share/tb_worlds/environment/ament_prefix_path.sh
-source;share/tb_worlds/environment/path.sh
+/home/dmin/turtlebot_ws/build/tb_worlds/ament_cmake_environment_hooks/local_setup.dsv

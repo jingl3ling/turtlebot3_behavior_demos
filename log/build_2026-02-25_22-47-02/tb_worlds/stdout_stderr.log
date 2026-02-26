@@ -1,0 +1,50 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav2_minimal_tb3_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb3_sim/cmake)
+-- Found nav2_minimal_tb4_sim: 1.0.1 (/opt/ros/jazzy/share/nav2_minimal_tb4_sim/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dmin/turtlebot_ws/build/tb_worlds
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/block_spawner.launch.py
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_demo_world.launch.py
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/tb_world.launch.py
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/launch/turtlebot_spawner.launch.py
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_locations.yaml
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.pgm
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/maps/sim_house_map.yaml
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.config
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/blue_block/model.sdf
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.config
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/green_block/model.sdf
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.config
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/red_block/model.sdf
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.config
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/models/sim_house/model.sdf
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/worlds/sim_house.sdf.xacro
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/urdf/gz_waffle.sdf.xacro
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/nav2_params.yaml
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot3_bridge.yaml
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/configs/turtlebot4_bridge.yaml
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/package_run_dependencies/tb_worlds
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/parent_prefix_path/tb_worlds
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.sh
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.sh
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/environment/path.dsv
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.bash
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.sh
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.zsh
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/local_setup.dsv
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.dsv
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/ament_index/resource_index/packages/tb_worlds
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig.cmake
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/cmake/tb_worldsConfig-version.cmake
+-- Symlinking: /home/dmin/turtlebot_ws/install/tb_worlds/share/tb_worlds/package.xml
