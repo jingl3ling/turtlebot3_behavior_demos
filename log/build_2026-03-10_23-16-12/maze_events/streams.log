@@ -1,0 +1,27 @@
+[0.628s] Invoking command in '/home/dmin/turtlebot_ws/build/maze_events': PS1=(tb_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/dmin/turtlebot_ws/build/maze_events/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmin/turtlebot_ws/install/maze_events/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(tb_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dmin/turtlebot_ws/build/maze_events/build --no-deps symlink_data
+[0.880s] running develop
+[1.013s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.013s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.042s] running egg_info
+[1.043s] creating maze_events.egg-info
+[1.058s] writing maze_events.egg-info/PKG-INFO
+[1.058s] writing dependency_links to maze_events.egg-info/dependency_links.txt
+[1.058s] writing entry points to maze_events.egg-info/entry_points.txt
+[1.059s] writing requirements to maze_events.egg-info/requires.txt
+[1.059s] writing top-level names to maze_events.egg-info/top_level.txt
+[1.059s] writing manifest file 'maze_events.egg-info/SOURCES.txt'
+[1.090s] reading manifest file 'maze_events.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'maze_events.egg-info/SOURCES.txt'
+[1.107s] running build_ext
+[1.107s] Creating /home/dmin/turtlebot_ws/install/maze_events/lib/python3.12/site-packages/maze-events.egg-link (link to .)
+[1.108s] Installing detector_node script to /home/dmin/turtlebot_ws/install/maze_events/bin
+[1.108s] Installing zenoh_ingest_worker script to /home/dmin/turtlebot_ws/install/maze_events/bin
+[1.109s] 
+[1.109s] Installed /home/dmin/turtlebot_ws/build/maze_events
+[1.109s] running symlink_data
+[1.109s] creating /home/dmin/turtlebot_ws/install/maze_events/share/ament_index
+[1.109s] creating /home/dmin/turtlebot_ws/install/maze_events/share/ament_index/resource_index
+[1.110s] creating /home/dmin/turtlebot_ws/install/maze_events/share/ament_index/resource_index/packages
+[1.110s] symbolically linking /home/dmin/turtlebot_ws/build/maze_events/resource/maze_events -> /home/dmin/turtlebot_ws/install/maze_events/share/ament_index/resource_index/packages
+[1.110s] symbolically linking /home/dmin/turtlebot_ws/build/maze_events/package.xml -> /home/dmin/turtlebot_ws/install/maze_events/share/maze_events
+[1.132s] Invoked command in '/home/dmin/turtlebot_ws/build/maze_events' returned '0': PS1=(tb_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/dmin/turtlebot_ws/build/maze_events/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dmin/turtlebot_ws/install/maze_events/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(tb_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dmin/turtlebot_ws/build/maze_events/build --no-deps symlink_data

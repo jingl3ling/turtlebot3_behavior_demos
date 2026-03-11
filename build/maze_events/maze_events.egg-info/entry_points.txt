@@ -1,0 +1,3 @@
+[console_scripts]
+detector_node = maze_events.detector_node:main
+zenoh_ingest_worker = maze_events.zenoh_ingest_worker:main

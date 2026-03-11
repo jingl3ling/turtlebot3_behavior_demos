@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+maze_events/__init__.py
+maze_events/detector_node.py
+maze_events/zenoh_ingest_worker.py
+maze_events.egg-info/PKG-INFO
+maze_events.egg-info/SOURCES.txt
+maze_events.egg-info/dependency_links.txt
+maze_events.egg-info/entry_points.txt
+maze_events.egg-info/requires.txt
+maze_events.egg-info/top_level.txt
+maze_events.egg-info/zip-safe
+resource/maze_events

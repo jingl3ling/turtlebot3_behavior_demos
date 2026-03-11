@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: maze-events
+Version: 0.1.0
+Summary: HW2 detection + Zenoh + PostgreSQL pipeline for TurtleBot maze.
+Maintainer: Student
+Maintainer-email: student@example.com
+License: BSD-3-Clause

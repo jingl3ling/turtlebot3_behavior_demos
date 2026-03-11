@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>maze_events</name>
+  <version>0.1.0</version>
+  <description>HW2: Object detection events pipeline (ROS 2 + Zenoh + PostgreSQL).</description>
+
+  <maintainer email="student@example.com">Student</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+
+  <!-- External Python dependencies (installed via pip): ultralytics, opencv-python, pillow, zenoh, psycopg2-binary -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
